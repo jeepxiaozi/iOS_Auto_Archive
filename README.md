@@ -20,6 +20,10 @@ PROJECT_DIRECTORY = "/Users/EricTang/Documents/XcodeWorkspace/Helloworld/"
 APP_DOWNLOAD_URL = "www.whatever.com/download/"
 ```
 
+One more thing, add "DailyBuild" in your Xcode project, you can add this by "select the Project and then Duplicate 'Release' Configuration, rename the Configuration to DailyBuild". Shown as below:
+
+![img](http://7vzo2i.com1.z0.glb.clouddn.com/052182PA6171B6V20.png-img.normal)
+
 #### how to use it?
 OK, that'll be easy, just simple run
 
@@ -56,6 +60,10 @@ PROJECT_DIRECTORY = "/Users/EricTang/Documents/XcodeWorkspace/Helloworld/"
 # 把APP_DOWNLOAD_URL替换成你的APP下载地址，无需填写IPA文件的名字，但是别忘了最后一个"/"符号
 APP_DOWNLOAD_URL = "www.whatever.com/download/"
 ```
+还有一件事儿，你需要在你的Xcode工程中添加名为DailyBuild的配置，很简单，首先选中项目，然后点击Configurations下的加号，选择“Duplicate Release Configuration”这一项，然后将新添加的配置重命名为DailyBuild，如下图所示：
+
+![img](http://7vzo2i.com1.z0.glb.clouddn.com/052182PA6171B6V20.png-img.normal)
+
 #### 如何使用
 这个很容易，配置完成之后，只需要在终端中运行如下命令：
 
